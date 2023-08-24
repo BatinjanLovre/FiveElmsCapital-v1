@@ -1,0 +1,12 @@
+body {
+	background-color: #fff;
+}
+
+#login h1 a, .login h1 a {
+	background-image: url('img/redneck-logo.jpg');
+	height:150px;
+	width:150px;
+	background-size: 200px 200px;
+	background-repeat: no-repeat;
+	padding-bottom: 30px;
+}

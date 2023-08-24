@@ -1,0 +1,30 @@
+/* Stilovi ukoliko logirani korisnik nije #1 admin */
+#dashboard_right_now .table_content
+{
+	width:100%;
+}
+
+/* Dashboard RIGHT NOW COMMENTS and Tags */
+#dashboard_right_now .b-tags,
+#dashboard_right_now .tags,
+#dashboard_right_now .table_discussion,
+#tags-input-wrap,
+.fixed .column-comments
+{
+	display: none;
+}
+
+#dashboard_right_now .versions
+{
+	visibility: hidden;
+	height: 1px;
+}
+
+#dashboard_recent_comments-hide,
+#dashboard_incoming_links-hide,
+#dashboard_plugins-hide,
+#dashboard_primary-hide,
+#dashboard_secondary-hide,
+#post-39, #post-41 { display: none; }
+
+.update-nag { display:none; } 

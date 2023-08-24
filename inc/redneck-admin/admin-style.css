@@ -1,0 +1,15 @@
+/* EuroART93 admin styles */
+/* hello :) */
+#wp-admin-bar-wp-logo > .ab-item .ab-icon
+{
+	/* background: url(img/redneck-logo.png) top center no-repeat;
+	width:24px; */
+}
+#wpadminbar.nojs #wp-admin-bar-wp-logo:hover>.ab-item .ab-icon,#wpadminbar #wp-admin-bar-wp-logo.hover>.ab-item .ab-icon 
+{
+	background-position: bottom center;
+}
+#example_dashboard_widget {
+	background: #FFBF76;
+}
+.update-nag { display:none; } 
